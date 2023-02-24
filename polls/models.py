@@ -29,3 +29,5 @@ class Brand(models.Model):
 class Inventory(models.Model):
     inventory = models.CharField(max_length=100)
     brand = models.OneToOneField(Brand, on_delete=models.CASCADE)
+
+# Comment
